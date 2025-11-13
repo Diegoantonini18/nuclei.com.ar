@@ -1,0 +1,88 @@
+.wrapper {
+  position: relative;
+  min-height: 580px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url('/contacto.png');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0 80px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(19, 40, 72, 0.75); /* dark blue overlay for contrast */
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(32px, 4.2vw, 56px);
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 12px;
+}
+
+.rule {
+  height: 2px;
+  width: 100px;
+  background: var(--color-secondary);
+  margin: 0 auto 48px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  filter: brightness(0) invert(1); /* make icons white */
+}
+
+.link,
+.text {
+  font-family: var(--font-body);
+  font-size: clamp(18px, 1.6vw, 24px);
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transition: opacity 220ms ease, transform 220ms ease;
+}
+
+.link:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .info {
+    align-items: center;
+  }
+  
+  .item {
+    justify-content: center;
+  }
+}
+
