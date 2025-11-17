@@ -1,10 +1,11 @@
 :root {
-  --color-primary: #132848; /* main */
+  --color-primary: rgba(19, 40, 72, 0.7); /* main */
+  --color-primary-solid: #132848; /* main solid */
   --color-secondary: #D70808; /* accent */
   --background: #0a1627; /* deep backdrop close to primary */
   --foreground: #f5f7fb;
   --page-padding: clamp(16px, 4vw, 80px);
-  --header-height: clamp(120px, 18vw, 240px);
+  --header-height: clamp(80px, 12vw, 160px);
 }
 
 html,

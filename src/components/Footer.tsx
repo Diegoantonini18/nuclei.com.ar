@@ -48,9 +48,9 @@ export default function Footer() {
           {/* Columna 4: Contacto */}
           <div className={styles.column}>
             <h3 className={styles.heading}>Contacto</h3>
-            <a href="mailto:contacto@nuclei.com.ar" className={styles.contactLink}>
+            <a href="mailto:administracion@nuclei.com.ar" className={styles.contactLink}>
               <Image src="/mail.png" alt="Email" width={20} height={20} className={styles.contactIcon} />
-              <span>contacto@nuclei.com.ar</span>
+              <span>administracion@nuclei.com.ar</span>
             </a>
           </div>
         </div>

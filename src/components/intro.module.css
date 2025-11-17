@@ -22,6 +22,21 @@
   align-self: stretch; /* match text column height */
   max-width: 560px; /* cap visual width */
   width: 100%;
+  order: 2;
+}
+
+.content {
+  order: 1;
+}
+
+@media (min-width: 900px) {
+  .media {
+    order: 1;
+  }
+  
+  .content {
+    order: 2;
+  }
 }
 
 .image {

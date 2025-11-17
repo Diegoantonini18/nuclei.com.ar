@@ -19,7 +19,7 @@ export default function Intro() {
           </div>
           <div className={styles.content}>
             <h2 className={`heading ${styles.title}`}>
-              <span className={styles.faint}>Quienes</span> Somos
+              <span className={styles.faint}>Quiénes</span> Somos
             </h2>
             <div className={styles.rule} />
             <p className={styles.paragraph}>
