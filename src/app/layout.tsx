@@ -15,7 +15,7 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "NUCLEI",
+  title: "Nuclei - Consultoría en comunicación y política",
   description: "Consultoría política y comunicación",
   icons: {
     icon: "/logo.ico",
