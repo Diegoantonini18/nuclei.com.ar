@@ -15,8 +15,7 @@ export default function Header() {
     const onScroll = () => {
       const y = window.scrollY || 0;
       setAtTop(y < 4);
-      const goingUp = y < lastYRef.current;
-      setShow(goingUp || y < 80); // always show near top
+      setShow(true); // always show header
       lastYRef.current = y;
     };
     onScroll();
@@ -35,7 +34,8 @@ export default function Header() {
   const headerClass = [
     styles.header,
     show ? "" : styles.hidden,
-    atTop ? styles.transparent : styles.solid,
+    // Si el menú está abierto o no está en el top, usar fondo sólido
+    (isMenuOpen || !atTop) ? styles.solid : styles.transparent,
   ]
     .filter(Boolean)
     .join(" ");

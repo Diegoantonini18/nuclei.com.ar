@@ -12,8 +12,8 @@ export default function Contacto() {
           <div className={styles.info}>
             <div className={styles.item}>
               <Image src="/mail.png" alt="Email" width={24} height={24} className={styles.icon} />
-              <a href="mailto:contacto@nuclei.com.ar" className={styles.link}>
-                contacto@nuclei.com.ar
+              <a href="mailto:administracion@nuclei.com.ar" className={styles.link}>
+                administracion@nuclei.com.ar
               </a>
             </div>
             <div className={styles.item}>
