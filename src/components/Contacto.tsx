@@ -19,12 +19,12 @@ export default function Contacto() {
             <div className={styles.item}>
               <Image src="/likedin.png" alt="LinkedIn" width={24} height={24} className={styles.icon} />
               <a
-                href="https://www.linkedin.com/nucleiconsultoria"
+                href="https://www.linkedin.com/company/nucleiconsultoria"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.link}
               >
-                https://www.linkedin.com/nucleiconsultoria
+                https://www.linkedin.com/company/nucleiconsultoria
               </a>
             </div>
             <div className={styles.item}>
