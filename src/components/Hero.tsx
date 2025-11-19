@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="container">
         <div className={styles.content}>
           <h1 className={`heading ${styles.title}`}>
-            Nuclei - Consultoría en comunicación y política
+            Líderes en consultoría política y comunicación	
           </h1>
           <div className={styles.rule} />
           <p className={styles.subtitle}>

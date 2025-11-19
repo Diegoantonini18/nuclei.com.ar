@@ -10,41 +10,76 @@ export default function Clientes() {
         </h2>
         <div className={styles.rule} />
         <div className={styles.logos}>
-          <Image
-            src="/ldd.svg"
-            alt="Cliente 1"
-            width={200}
-            height={120}
-            className={styles.logo}
-          />
-          <Image
-            src="/quark.svg"
-            alt="Cliente 2"
-            width={200}
-            height={120}
-            className={styles.logo}
-          />
-          <Image
-            src="/interior.png"
-            alt="Cliente 3"
-            width={200}
-            height={120}
-            className={styles.logo}
-          />
-          <Image
-            src="/enroscados.svg"
-            alt="Cliente 4"
-            width={200}
-            height={120}
-            className={styles.logo}
-          />
-          <Image
-            src="/urgentes.svg"
-            alt="Cliente 4"
-            width={200}
-            height={120}
-            className={styles.logo}
-          />
+          <a
+            href="https://derechadiario.com.ar/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.logoLink}
+          >
+            <Image
+              src="/ldd.svg"
+              alt="Derecha Diario"
+              width={200}
+              height={120}
+              className={styles.logo}
+            />
+          </a>
+          <a
+            href="https://quarkrevista.com.ar/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.logoLink}
+          >
+            <Image
+              src="/quark.svg"
+              alt="Quark Revista"
+              width={200}
+              height={120}
+              className={styles.logo}
+            />
+          </a>
+          <a
+            href="https://noticiasinterior.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.logoLink}
+          >
+            <Image
+              src="/interior.png"
+              alt="Noticias Interior"
+              width={200}
+              height={120}
+              className={styles.logo}
+            />
+          </a>
+          <a
+            href="https://enroscados.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.logoLink}
+          >
+            <Image
+              src="/enroscados.svg"
+              alt="Enroscados"
+              width={200}
+              height={120}
+              className={styles.logo}
+            />
+          </a>
+          <a
+            href="https://urgentesargentina.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.logoLink}
+          >
+            <Image
+              src="/urgentes.svg"
+              alt="Urgentes Argentina"
+              width={200}
+              height={120}
+              className={styles.logo}
+            />
+          </a>
         </div>
       </div>
     </section>
