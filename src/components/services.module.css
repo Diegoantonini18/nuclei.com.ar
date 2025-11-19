@@ -77,6 +77,22 @@
 .cardText { font-family: var(--font-body); font-weight: 400; line-height: 1.6; margin-top: 0; font-size: clamp(16px, 1.2vw, 20px); }
 .icon { opacity: 0.9; width: 24px; height: 36px; }
 
+/* Logos 4, 5 y 6 un poco más grandes */
+.logo4,
+.logo5,
+.logo6 {
+  width: clamp(28px, 3.5vw, 40px) !important;
+  height: clamp(42px, 5vw, 60px) !important;
+}
+
+/* Logos 4 y 5 en blanco */
+.logo4,
+.logo5 {
+  filter: brightness(0) invert(1);
+}
+
+/* Logo 6 mantiene su color pero es más grande (ya aplicado arriba) */
+
 /* Color tones (top row) */
 .redTrans { background: rgba(181, 10, 10, 0.79); }
 .whiteTrans { background: rgba(255, 255, 255, 0.8); color: #132848; }
