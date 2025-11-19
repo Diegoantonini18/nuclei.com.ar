@@ -26,7 +26,7 @@ export default function Footer() {
           <div className={styles.column}>
             <h3 className={styles.heading}>Seguinos</h3>
             <a
-              href="https://www.linkedin.com/nuclei"
+              href="https://www.linkedin.com/nucleiconsultoria"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.socialLink}
