@@ -11,28 +11,35 @@ export default function Clientes() {
         <div className={styles.rule} />
         <div className={styles.logos}>
           <Image
-            src="/cliente1.png"
+            src="/ldd.svg"
             alt="Cliente 1"
             width={200}
             height={120}
             className={styles.logo}
           />
           <Image
-            src="/cliente2.png"
+            src="/quark.svg"
             alt="Cliente 2"
             width={200}
             height={120}
             className={styles.logo}
           />
           <Image
-            src="/cliente3.png"
+            src="/interior.png"
             alt="Cliente 3"
             width={200}
             height={120}
             className={styles.logo}
           />
           <Image
-            src="/cliente4.png"
+            src="/enroscados.svg"
+            alt="Cliente 4"
+            width={200}
+            height={120}
+            className={styles.logo}
+          />
+          <Image
+            src="/urgentes.svg"
             alt="Cliente 4"
             width={200}
             height={120}

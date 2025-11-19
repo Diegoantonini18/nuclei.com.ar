@@ -17,6 +17,9 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   title: "NUCLEI",
   description: "Consultoría política y comunicación",
+  icons: {
+    icon: "/logo.ico",
+  },
 };
 
 export default function RootLayout({
