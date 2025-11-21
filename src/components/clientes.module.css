@@ -91,6 +91,10 @@
   .logoLink {
     max-width: calc(16% - 16px);
   }
+  
+  .logos > :nth-child(5) .logo {
+    max-height: 72px;
+  }
 }
 
 .svgLogo {
