@@ -7,15 +7,18 @@ export default function Intro() {
       <div className="container">
         <div className={styles.grid}>
           <div className={styles.media}>
-            <Image
-              src="/intro.png"
-              alt="Nuclei - Introducción"
-              width={640}
-              height={480}
-              sizes="(min-width: 1024px) 520px, 100vw"
-              priority={false}
-              className={styles.image}
-            />
+            <div className={styles.imageWrapper}>
+              <Image
+                src="/congreso.jpg"
+                alt="Nuclei - Introducción"
+                width={640}
+                height={480}
+                sizes="(min-width: 1024px) 520px, 100vw"
+                priority={false}
+                className={styles.image}
+              />
+              <div className={styles.overlay} />
+            </div>
           </div>
           <div className={styles.content}>
             <h2 className={`heading ${styles.title}`}>

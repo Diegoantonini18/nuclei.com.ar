@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   background-image:
-    linear-gradient(rgba(10, 22, 39, 0.35), rgba(10, 22, 39, 0.35)),
+    linear-gradient(rgba(5, 5, 5, 0.15), rgba(5, 5, 5, 0.15)),
     url('/hero.png');
   background-size: cover;
   background-position: center;
@@ -13,7 +13,7 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background: radial-gradient(1000px 600px at 25% 50%, rgba(19,40,72,0.65) 0%, rgba(19,40,72,0.85) 60%, rgba(19,40,72,0.95) 100%);
+  background: radial-gradient(1000px 600px at 25% 50%, rgba(5,5,5,0.3) 0%, rgba(5,5,5,0.5) 60%, rgba(5,5,5,0.7) 100%);
   mix-blend-mode: multiply;
 }
 

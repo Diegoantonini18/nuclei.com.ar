@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/contacto.png');
+  background-image: url('/rosada.jpg');
   background-size: cover;
   background-position: center;
   padding: 60px 0 80px;
@@ -20,7 +20,7 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(19, 40, 72, 0.75); /* dark blue overlay for contrast */
+  background: rgba(5, 5, 5, 0.75); /* dark overlay for contrast */
 }
 
 .content {

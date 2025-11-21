@@ -1,8 +1,8 @@
 :root {
-  --color-primary: rgba(19, 40, 72, 0.7); /* main */
-  --color-primary-solid: #132848; /* main solid */
+  --color-primary: rgba(5, 5, 5, 0.7); /* main */
+  --color-primary-solid: #0a0a0a; /* main solid */
   --color-secondary: #D70808; /* accent */
-  --background: #0a1627; /* deep backdrop close to primary */
+  --background: #000000; /* deep backdrop close to primary */
   --foreground: #f5f7fb;
   --page-padding: clamp(16px, 4vw, 80px);
   --header-height: clamp(80px, 12vw, 160px);
